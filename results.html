@@ -85,7 +85,6 @@ stats"></a></div></noscript>
     }
 
     econArray = ["Communist","Socialist","Social","Centrist","Market","Capitalist","Laissez-Faire"]
-    diplArray = ["Cosmopolitan","Internationalist","Peaceful","Balanced","Patriotic","Nationalist","Chauvinist"]
     govtArray = ["Anarchist","Libertarian","Liberal","Moderate","Statist","Authoritarian","Totalitarian"]
     sctyArray = ["Revolutionary","Very Progressive","Progressive","Neutral","Traditional","Very Traditional","Reactionary"]
 
@@ -102,25 +101,20 @@ stats"></a></div></noscript>
     }
 
     equality  = getQueryVariable("e")
-    peace     = getQueryVariable("d")
     liberty   = getQueryVariable("g")
     progress  = getQueryVariable("s")
     wealth    = (100 - equality).toFixed(1)
-    might     = (100 - peace   ).toFixed(1)
     authority = (100 - liberty ).toFixed(1)
     tradition = (100 - progress).toFixed(1)
 
     setBarValue("equality", equality)
     setBarValue("wealth", wealth)
-    setBarValue("peace", peace)
-    setBarValue("might", might)
     setBarValue("liberty", liberty)
     setBarValue("authority", authority)
     setBarValue("progress", progress)
     setBarValue("tradition", tradition)
 
     document.getElementById("economic-label").innerHTML = setLabel(equality, econArray)
-    document.getElementById("diplomatic-label").innerHTML = setLabel(peace, diplArray)
     document.getElementById("state-label").innerHTML = setLabel(liberty, govtArray)
     document.getElementById("society-label").innerHTML = setLabel(progress, sctyArray)
 
@@ -130,7 +124,6 @@ stats"></a></div></noscript>
         dist = 0
         dist += Math.pow(Math.abs(ideologies[i].stats.econ - equality), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.govt - liberty), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.dipl - peace), 1.73856063)
         dist += Math.pow(Math.abs(ideologies[i].stats.scty - progress), 1.73856063)
         if (dist < ideodist) {
             ideology = ideologies[i].name
@@ -159,10 +152,6 @@ stats"></a></div></noscript>
         ctx.drawImage(img, 20, 170, 100, 100);
         img = document.getElementById("img-wealth")
         ctx.drawImage(img, 680, 170, 100, 100)
-        img = document.getElementById("img-might")
-        ctx.drawImage(img, 20, 290, 100, 100)
-        img = document.getElementById("img-peace")
-        ctx.drawImage(img, 680, 290, 100, 100)
         img = document.getElementById("img-liberty")
         ctx.drawImage(img, 20, 410, 100, 100)
         img = document.getElementById("img-authority")
@@ -182,10 +171,6 @@ stats"></a></div></noscript>
         ctx.fillStyle="#00897b"
         ctx.fillRect(682-5.6*wealth, 184, 5.6*wealth-2, 72)
         ctx.fillStyle="#ff9800"
-        ctx.fillRect(120, 304, 5.6*might-2, 72)
-        ctx.fillStyle="#03a9f4"
-        ctx.fillRect(682-5.6*peace, 304, 5.6*peace-2, 72)
-        ctx.fillStyle="#ffeb3b"
         ctx.fillRect(120, 424, 5.6*liberty-2, 72)
         ctx.fillStyle="#3f51b5"
         ctx.fillRect(682-5.6*authority, 424, 5.6*authority-2, 72)
@@ -202,12 +187,10 @@ stats"></a></div></noscript>
 
         ctx.textAlign="left"
         if (equality  > 30) {ctx.fillText(equality + "%", 130, 237.5)}
-        if (might     > 30) {ctx.fillText(might + "%", 130, 357.5)}
         if (liberty   > 30) {ctx.fillText(liberty + "%", 130, 477.5)}
         if (tradition > 30) {ctx.fillText(tradition + "%", 130, 597.5)}
         ctx.textAlign="right"
         if (wealth    > 30) {ctx.fillText(wealth + "%", 670, 237.5)}
-        if (peace     > 30) {ctx.fillText(peace + "%", 670, 357.5)}
         if (authority > 30) {ctx.fillText(authority + "%", 670, 477.5)}
         if (progress  > 30) {ctx.fillText(progress + "%", 670, 597.5)}
 
@@ -216,7 +199,6 @@ stats"></a></div></noscript>
 		ctx.fillText(version, 780, 90)
         ctx.textAlign="center"
         ctx.fillText("Economic Axis: " + document.getElementById("economic-label").innerHTML, 400, 175)
-        ctx.fillText("Diplomatic Axis: " + document.getElementById("diplomatic-label").innerHTML, 400, 295)
         ctx.fillText("Civil Axis: " + document.getElementById("state-label").innerHTML, 400, 415)
         ctx.fillText("Societal Axis: " + document.getElementById("society-label").innerHTML, 400, 535)
 
