@@ -84,10 +84,10 @@ stats"></a></div></noscript>
         }
     }
 
-    econArray = ["Centrist","Liberal","Libertarian","Minarchist","Voluntarist"]
-    govtArray = ["Libertarian Unity","Libertarian Co-Operation","Distinctionist","Right Co-Operation","Right Unity"]
-    sctyArray = ["Progressive","Cultural Liberal","Neutral","Cultural Conservative","Traditionalist"]
-
+    econArray = ["Centrist","Liberal","Libertarian Paternalist","Libertarian","Austrolibertarian","Minarchist","Voluntarist"]
+    govtArray = ["Libertarian Synthesis","Libertarian Unity","Libertarian Co-Operation","Generalist","Right Co-operation","Right Unity","Right Synthesis"]
+    sctyArray = ["Ultraprogressive","Progressive","Cultural Liberal","Neutral","Conservative","Traditionalist","Reactionary"]
+	
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
         if (val > 90) { return ary[0] } else
@@ -166,17 +166,17 @@ stats"></a></div></noscript>
         ctx.fillRect(120, 300, 560, 80)
         ctx.fillRect(120, 420, 560, 80)
         ctx.fillRect(120, 540, 560, 80)
-        ctx.fillStyle="#f44336"
+        ctx.fillStyle="#9b2e2b"
         ctx.fillRect(120, 184, 5.6*equality-2, 72)
-        ctx.fillStyle="#00897b"
+        ctx.fillStyle="#f2e50d"
         ctx.fillRect(682-5.6*wealth, 184, 5.6*wealth-2, 72)
-        ctx.fillStyle="#ff9800"
+        ctx.fillStyle="#deecb3"
         ctx.fillRect(120, 424, 5.6*liberty-2, 72)
-        ctx.fillStyle="#3f51b5"
+        ctx.fillStyle="#c2e7d2"
         ctx.fillRect(682-5.6*authority, 424, 5.6*authority-2, 72)
-        ctx.fillStyle="#8bc34a"
+        ctx.fillStyle="#7dd8ff"
         ctx.fillRect(120, 544, 5.6*tradition-2, 72)
-        ctx.fillStyle="#9c27b0"
+        ctx.fillStyle="#ff8ce2"
         ctx.fillRect(682-5.6*progress, 544, 5.6*progress-2, 72)
         ctx.fillStyle="#222222"
         ctx.font="700 80px Montserrat"
