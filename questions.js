@@ -97,14 +97,6 @@ questions = [
         }
     },
     {
-        "question": "There is nothing more permanent than a temporary government solution.",
-        "effect": {
-            "econ": -10,
-            "govt": 0,
-            "scty": 5
-        }
-    },
-    {
         "question": "Dispute resolution would generally be more fair if private alternatives to the state court system are offered.",
         "effect": {
             "econ": -10,
@@ -163,16 +155,48 @@ questions = [
     {
         "question": "We should not be ashamed in bringing back the wisdom of the past in the face of an increasingly tyrannic modernity.",
         "effect": {
-            "econ": -10,
+            "econ": 0,
             "govt": 0,
-            "scty": 0
+            "scty": -10
         }
     },
     {
         "question": "History can be primarily described as a steady but not always constant path to ever-increasing liberty and prosperity",
         "effect": {
+            "econ": 0,
+            "govt": 0,
+            "scty": 10
+        }
+    },
+    {
+        "question": "Government legislation against racial and gender discrimination by private institutions is needed, alongside boycotts of such racist institutions",
+        "effect": {
+            "econ": -10,
+            "govt": 0,
+            "scty": 10
+        }
+    },
+        {
+        "question": "The state by it's very nature will seek to corrupt and weaken traditional institutions that go against it, as such anyone who truly cares about the maintenance of such institutions should seek to weaken the state.",
+        "effect": {
             "econ": 10,
             "govt": 0,
+            "scty": -10
+        }
+    },
+        {
+        "question": "A strong military is needed to protect the people from foreign aggression, alongside self-defence.",
+        "effect": {
+            "econ": 10,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+        {
+        "question": "Government legislation against environmental pollution is needed alongside a consumer push for eco-friendly products.",
+        "effect": {
+            "econ": 10,
+            "govt": 10,
             "scty": 0
         }
     },
