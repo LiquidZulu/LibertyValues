@@ -75,7 +75,7 @@ ideologies = [
         "name": "Hoppean",
         "stats": {
             "econ": 0,
-            "govt": 40,
+            "govt": 35,
             "scty": 25
         }
     },
@@ -163,7 +163,7 @@ ideologies = [
         "name": "Korwinism",
         "stats": {
             "econ": 55,
-            "govt": 20,
+            "govt": 35,
             "scty": 30
         }
     },
@@ -197,6 +197,22 @@ ideologies = [
             "econ": 0,
             "govt": 40,
             "scty": 70
+        }
+    },
+        {
+        "name": "Pinochetian Minarchism",
+        "stats": {
+            "econ": 20,
+            "govt": 0,
+            "scty": 35
+        }
+    },
+        {
+        "name": "Pseudo-Hoppean",
+        "stats": {
+            "econ": 20,
+            "govt": 0,
+            "scty": 35
         }
     },
 ];
