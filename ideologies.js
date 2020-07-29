@@ -211,8 +211,8 @@ ideologies = [
         "name": "Pseudo-Hoppean",
         "stats": {
             "econ": 20,
-            "govt": 0,
-            "scty": 35
+            "govt": 35,
+            "scty": 0
         }
     },
 ];
