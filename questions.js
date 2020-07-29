@@ -200,4 +200,20 @@ questions = [
             "scty": 0
         }
     },
+        {
+        "question": "Marriage should only be the concern of the individuals getting married and of the institutions to which they agree to arbitrate the marriage, and not the state.",
+        "effect": {
+            "econ": -10,
+            "govt": 0,
+            "scty": -5
+        }
+    },
+            {
+        "question": "Seasteading as a way to escape the state is a worthwile concept to explore.",
+        "effect": {
+            "econ": -10,
+            "govt": 0,
+            "scty": 0
+        }
+    },
 ];
