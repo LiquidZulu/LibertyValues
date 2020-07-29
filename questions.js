@@ -10,7 +10,7 @@ questions = [
     {
         "question": "State-mandated economic stimulus is needed to soften economic crises.",
         "effect": {
-            "econ": 15,
+            "econ": 20,
             "govt": 0,
             "scty": 0
         }
@@ -58,7 +58,7 @@ questions = [
     {
         "question": "For a capitalist market economy to flourish the state should be able to regulate it so monopolies and similar problems don't appear.",
         "effect": {
-            "econ": 15,
+            "econ": 20,
             "govt": 0,
             "scty": 0
         }
@@ -179,7 +179,7 @@ questions = [
         {
         "question": "The state by it's very nature will seek to corrupt and weaken traditional institutions that go against it, as such anyone who truly cares about the maintenance of such institutions should seek to weaken the state.",
         "effect": {
-            "econ": 10,
+            "econ": -5,
             "govt": 0,
             "scty": -10
         }
