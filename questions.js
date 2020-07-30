@@ -181,13 +181,13 @@ questions = [
         "effect": {
             "econ": -5,
             "govt": 0,
-            "scty": -10
+            "scty": -5
         }
     },
         {
         "question": "A strong military is needed to protect the people from foreign aggression, alongside self-defence.",
         "effect": {
-            "econ": 10,
+            "econ": 5,
             "govt": -10,
             "scty": 0
         }
@@ -201,11 +201,11 @@ questions = [
         }
     },
         {
-        "question": "Marriage should only be the concern of the individuals getting married and of the institutions to which they agree to arbitrate the marriage, and not the state.",
+        "question": "Marriage is not the concern of the state.",
         "effect": {
             "econ": -10,
             "govt": 0,
-            "scty": -5
+            "scty": 0
         }
     },
             {
@@ -214,6 +214,14 @@ questions = [
             "econ": -10,
             "govt": 0,
             "scty": 0
+        }
+    },
+                {
+        "question": "The state acts as defender of institutions of old oppressive institutions, thus anyone who truly wants for society to progress must advocate the weakening of the state.",
+        "effect": {
+            "econ": -5,
+            "govt": 0,
+            "scty": 5
         }
     },
 ];
