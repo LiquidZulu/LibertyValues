@@ -123,7 +123,7 @@ ideologies = [
         "name": "Anarcho-Distributism",
         "stats": {
             "econ": 5,
-            "govt": 70,
+            "govt": 60,
             "scty": 35
         }
     },
@@ -147,8 +147,8 @@ ideologies = [
         "name": "Anarcho-Monarchism",
         "stats": {
             "econ": 5,
-            "govt": 50,
-            "scty": 30
+            "govt": 45,
+            "scty": 25
         }
     },
     {
