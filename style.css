@@ -159,15 +159,15 @@ div.authority {
     text-align: right;
     border-left-style: solid;
 }
-div.progress {
-    background-color: #ff8ce2;
-    text-align: left;
-    border-right-style: solid;
-}
 div.tradition {
     background-color: #7dd8ff;
     text-align: right;
     border-left-style: solid;
+}
+div.progress {
+    background-color: #ff8ce2;
+    text-align: left;
+    border-right-style: solid;
 }
 span.weight-300 {
     font-weight: 300;
