@@ -10,7 +10,7 @@ ideologies = [
     {
         "name": "Libertarianism",
         "stats": {
-            "econ": 50,
+            "econ": 40,
             "govt": 50,
             "scty": 80
         }
@@ -62,11 +62,10 @@ ideologies = [
             "govt": 40,
             "scty": 40
         }
-    },
     {
         "name": "Paleolibertarianism",
         "stats": {
-            "econ": 50,
+            "econ": 40,
             "govt": 30,
             "scty": 40
         }
@@ -75,7 +74,7 @@ ideologies = [
         "name": "Hoppean",
         "stats": {
             "econ": 0,
-            "govt": 35,
+            "govt": 30,
             "scty": 25
         }
     },
@@ -138,7 +137,7 @@ ideologies = [
     {
         "name": "National Libertarian",
         "stats": {
-            "econ": 50,
+            "econ": 40,
             "govt": 35,
             "scty": 40
         }
@@ -162,7 +161,7 @@ ideologies = [
     {
         "name": "Korwinism",
         "stats": {
-            "econ": 55,
+            "econ": 40,
             "govt": 35,
             "scty": 30
         }
@@ -195,8 +194,8 @@ ideologies = [
         "name": "Pink Hoppeanism",
         "stats": {
             "econ": 0,
-            "govt": 40,
-            "scty": 70
+            "govt": 20,
+            "scty": 80
         }
     },
         {
@@ -208,11 +207,11 @@ ideologies = [
         }
     },
         {
-        "name": "Pseudo-Hoppean",
+        "name": "Semi-Hoppean",
         "stats": {
             "econ": 20,
             "govt": 35,
-            "scty": 0
+            "scty": 25
         }
     },
 ];
