@@ -202,7 +202,7 @@ ideologies = [
         "name": "Pinochetian Minarchism",
         "stats": {
             "econ": 20,
-            "govt": 0,
+            "govt": 10,
             "scty": 35
         }
     },
