@@ -224,4 +224,20 @@ questions = [
             "scty": 5
         }
     },
+                {
+        "question": "Individuals which do not recognise the institution of private property and refuse to abide by its rules are fundamnetally incompatible with a free society, and should be ideally be removed from it.",
+        "effect": {
+            "econ": 0,
+            "govt": -5,
+            "scty": 0
+        }
+    },
+                {
+        "question": "Anyone who seeks freedom from the state, no matter their if they're left-wing or right-wing, is a friend to our course.",
+        "effect": {
+            "econ": 0,
+            "govt": 5,
+            "scty": 0
+        }
+    },
 ];
