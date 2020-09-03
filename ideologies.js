@@ -389,7 +389,7 @@ ideologies = [
     {
         "name": "State Capitalism",
         "stats": {
-            "econ": 20,
+            "econ": 35,
             "dipl": 50,
             "govt": 30,
             "scty": 50
@@ -467,4 +467,22 @@ ideologies = [
             "scty": 50
         }
     }
+     {
+        "name": "Hoppeanism",
+        "stats": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 100,
+            "scty": 0
+        }
+    },
+        {
+        "name": "Paleolibertarianism",
+        "stats": {
+            "econ": 20,
+            "dipl": 40,
+            "govt": 80,
+            "scty": 20
+        }
+    },
 ];
