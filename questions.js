@@ -171,7 +171,7 @@ questions = [
     {
         "question": "Government legislation against racial and gender discrimination by private institutions is needed, alongside boycotts of such racist institutions",
         "effect": {
-            "econ": -10,
+            "econ": 10,
             "govt": 0,
             "scty": 10
         }
@@ -185,10 +185,10 @@ questions = [
         }
     },
         {
-        "question": "A strong military is needed to protect the people from foreign aggression, alongside self-defence.",
+        "question": "There is a right to secede that carries down all the way to the individual.",
         "effect": {
-            "econ": 5,
-            "govt": -10,
+            "econ": -10,
+            "govt": 0,
             "scty": 0
         }
     },
